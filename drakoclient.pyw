@@ -22,7 +22,6 @@ def loading():
     pb.grid(column=0, row=0, columnspan=2, padx=10, pady=200)
     pb.start()
 
-
 #Installation et lancement du jeu :
 def launch_a():
     minecraft_directory = "game_data"
