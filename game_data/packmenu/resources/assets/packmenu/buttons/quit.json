@@ -1,0 +1,9 @@
+{
+	"x": -50,
+	"y": 84,
+	"width": 100,
+	"height": 20,
+	"langKey": "menu.quit",
+	"texture": "packmenu:textures/gui/widgets.png",
+	"action": "QUIT"
+}

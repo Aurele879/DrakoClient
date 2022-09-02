@@ -1,0 +1,16 @@
+{
+	"x": 30,
+	"y": 48,
+	"width": 20,
+	"height": 20,
+	"u": 0,
+	"v": 106,
+	"hoverU": 0,
+	"hoverV": 126,
+	"texWidth": 256,
+	"texHeight": 256,
+	"widgets": false,
+	"action": "OPEN_GUI",
+	"texture": "packmenu:textures/gui/widgets.png",
+	"data": "LANGUAGE"
+}
