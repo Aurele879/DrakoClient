@@ -8,7 +8,7 @@ import uuid
 import os
 import customtkinter
 from PIL import ImageTk, Image
-
+import os 
 
 #Variable de la fenetre du launcher :
 customtkinter.set_appearance_mode("dark")
@@ -63,22 +63,27 @@ app.geometry("700x300")
 app.title('DrakoClient')
 app.iconbitmap('assets/icon.ico')
 
+
+
 button = customtkinter.CTkButton(master=app, text="Jouer !", command=threading.Thread(target=launch_a).start, fg_color='#FF5100', hover_color="#9E3200")
 button.place(relx=0.5, rely=0.8, anchor=CENTER)
 
+
+
 button = customtkinter.CTkButton(master=app, text="Dossier du jeu", command=btn_files)
 button.place(relx=0.8, rely=0.8, anchor=CENTER)
+
+
+
+button = customtkinter.CTkButton(master=app, fg_color= '#2B006A', hover_color='#18003B', text="Discord",  command=btn_discord)
+button.place(relx=0.2, rely=0.8, anchor=CENTER)
+
+
 
 img = ImageTk.PhotoImage(Image.open("assets/title.png"))
 panel = Label(app, image = img, bd= 0, highlightthickness= 0)
 panel.place(x = 100, y = 10)
 
-    #combobox = customtkinter.CTkOptionMenu(master=app,
-    #                                    values=["DrakoClient 1.16.5", "DrakoClient Skyblock"],
-    #                                    command=btn_files,
-    #                                    )
-    #combobox.place(relx=0.1, rely=0.77)
-    #combobox.set("Choisir la version")
 
 
 #Appartition de la fenetre :
